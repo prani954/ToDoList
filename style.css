@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin:0;
+    border:0;
+    padding:0;
+}
+/* #todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30vh;
+}
+#to-dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.finish-btn,.delete-btn{
+    background-color: greenyellow;
+    padding:0.5rem;
+    font-weight: bold;
+
+}
+.finish-btn{
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+.finish{
+    text-decoration: line-through;
+    color: gray;
+    opacity:0.5;
+}
+.delete-btn{
+    background-color: red;
+    color:white;
+    border-radius:0 0.4rem 0.4rem 0;
+    
+}
+p{
+    flex-grow: 1;
+}
+.todoEle{
+    width:250px;
+    display: flex;
+    align-items: center;
+    padding:0.5rem;
+    box-shadow: 1px 1px 3px lightslategray;
+    border-radius: 5px;
+} */
+body{
+   width:70%;
+   margin:auto;
+}
+#heading{
+    font-family: 'Poppins', sans-serif;
+    width:25%;
+    margin:auto;
+}
+#todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:30vh;
+}
+#text{
+    padding:0.4rem;
+}
+#to-dos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.finish-btn,.delete-btn{
+    background-color: rgb(134, 255, 47);
+    padding:0.5rem;
+    font-weight: bold;
+}
+.finish-btn{
+    border-radius: 0.4rem 0 0 0.4rem;
+}
+.finish{
+    text-decoration: line-through;
+    color: gray;
+    opacity:0.5;
+}
+.delete-btn{
+    background-color: red;
+    color:white;
+    padding:0.6rem;
+    border-radius:0 0.4rem 0.4rem 0;
+}
+.todo-list{
+ display:flex;
+ justify-content: center;
+ align-items:center;
+ width:60%;
+ box-shadow:1px 2px 3px lightslategray;
+ border-radius:5px;
+ margin:0.4rem;
+ padding:0.5rem;
+}
+.todo-item{
+    padding:0.4rem;
+    flex-grow: 1;
+}
+#msg{
+    width:45%;
+    height:50vh;
+    margin:auto;
+}
+.none{
+    background-color: white;
+    display: none;
+}
+#add-btn,#filter-btn{
+    padding:0.5rem;
+    background-color: aliceblue;
+    color:navy;
+    margin-left:0.5rem;
+}
