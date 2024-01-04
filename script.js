@@ -99,10 +99,12 @@ filterbtn.addEventListener('click',()=>{
 function displayToDo(val){
     let todoData = ''
  val.forEach(ele => {
-    todoData += `<div class="todo-list">
-    <p class="todo-item ${ele.isFinished?'finish':''}">${ele.text}</p>
+    todoData += `<div class="todo-list ${ele.isDeleted?'delete':''}">
+    <div class="todo-item ${ele.isFinished?'finish':''}">
+    <p id = "todotext" >${ele.text}</p>
     <i class="fa-solid fa-check finish-btn" data-id="${ele.id}"></i>
-    <button><i class="fa-solid fa-trash delete-btn" data-id="${ele.id}"></i></button>
+    </div>
+    <i class="fa-solid fa-trash delete-btn" data-id="${ele.id}"></i>
     </div>`
  });
  toDo.innerHTML= todoData
